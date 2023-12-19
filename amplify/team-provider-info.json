@@ -1,28 +1,23 @@
 {
-  "dev": {
+  "lilraw": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-react2-dev-95906-authRole",
-      "UnauthRoleArn": "arn:aws:iam::195692292045:role/amplify-react2-dev-95906-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::195692292045:role/amplify-react2-dev-95906-authRole",
+      "AuthRoleName": "amplify-react2-lilraw-110552-authRole",
+      "UnauthRoleArn": "arn:aws:iam::195692292045:role/amplify-react2-lilraw-110552-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::195692292045:role/amplify-react2-lilraw-110552-authRole",
       "Region": "eu-west-1",
-      "DeploymentBucketName": "amplify-react2-dev-95906-deployment",
-      "UnauthRoleName": "amplify-react2-dev-95906-unauthRole",
-      "StackName": "amplify-react2-dev-95906",
-      "StackId": "arn:aws:cloudformation:eu-west-1:195692292045:stack/amplify-react2-dev-95906/defcb2f0-9e4c-11ee-b96b-0a96d458a79d",
+      "DeploymentBucketName": "amplify-react2-lilraw-110552-deployment",
+      "UnauthRoleName": "amplify-react2-lilraw-110552-unauthRole",
+      "StackName": "amplify-react2-lilraw-110552",
+      "StackId": "arn:aws:cloudformation:eu-west-1:195692292045:stack/amplify-react2-lilraw-110552/31436320-9e56-11ee-879c-0af618971b47",
       "AmplifyAppId": "d27hk2rokv5hlx"
-    }
-  },
-  "react": {
-    "awscloudformation": {
-      "AuthRoleName": "amplify-react2-react-100053-authRole",
-      "UnauthRoleArn": "arn:aws:iam::195692292045:role/amplify-react2-react-100053-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::195692292045:role/amplify-react2-react-100053-authRole",
-      "Region": "eu-west-1",
-      "DeploymentBucketName": "amplify-react2-react-100053-deployment",
-      "UnauthRoleName": "amplify-react2-react-100053-unauthRole",
-      "StackName": "amplify-react2-react-100053",
-      "StackId": "arn:aws:cloudformation:eu-west-1:195692292045:stack/amplify-react2-react-100053/203c09a0-9e4d-11ee-95c0-06d5080f4119",
-      "AmplifyAppId": "d27hk2rokv5hlx"
+    },
+    "categories": {
+      "storage": {
+        "users": {}
+      },
+      "auth": {
+        "react256ed71b7": {}
+      }
     }
   }
 }
