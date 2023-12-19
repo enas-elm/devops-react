@@ -24,5 +24,18 @@
       "StackId": "arn:aws:cloudformation:eu-west-1:195692292045:stack/amplify-react2-react-100053/203c09a0-9e4d-11ee-95c0-06d5080f4119",
       "AmplifyAppId": "d27hk2rokv5hlx"
     }
+  },
+  "main": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-react2-main-101302-authRole",
+      "UnauthRoleArn": "arn:aws:iam::195692292045:role/amplify-react2-main-101302-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::195692292045:role/amplify-react2-main-101302-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-react2-main-101302-deployment",
+      "UnauthRoleName": "amplify-react2-main-101302-unauthRole",
+      "StackName": "amplify-react2-main-101302",
+      "StackId": "arn:aws:cloudformation:eu-west-1:195692292045:stack/amplify-react2-main-101302/d0e636d0-9e4e-11ee-952b-02864942b6b3",
+      "AmplifyAppId": "d27hk2rokv5hlx"
+    }
   }
 }
