@@ -43,7 +43,7 @@
       "function": {
         "react256ed71b7PostConfirmation": {
           "deploymentBucketName": "amplify-react2-enasbis-155446-deployment",
-          "s3Key": "amplify-builds/react256ed71b7PostConfirmation-3041324b367a69577677-build.zip"
+          "s3Key": "amplify-builds/react256ed71b7PostConfirmation-2f622b304e5159357a7a-build.zip"
         }
       }
     }
