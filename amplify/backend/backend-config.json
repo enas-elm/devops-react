@@ -159,6 +159,11 @@
     }
   },
   "storage": {
+    "profil": {
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "S3"
+    },
     "users": {
       "providerPlugin": "awscloudformation",
       "service": "DynamoDB"

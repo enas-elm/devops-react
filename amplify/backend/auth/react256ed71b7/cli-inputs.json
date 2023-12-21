@@ -1,7 +1,7 @@
 {
   "version": "1",
   "cognitoConfig": {
-    "identityPoolName": "react256ed71b7_identitypool_96d8ef2b",
+    "identityPoolName": "react256ed71b7_identitypool_3fa985fb",
     "allowUnauthenticatedIdentities": false,
     "resourceNameTruncated": "react256ed71b7",
     "userPoolName": "react256ed71b7_userpool_56ed71b7",

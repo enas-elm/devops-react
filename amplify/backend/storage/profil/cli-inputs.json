@@ -1,0 +1,14 @@
+{
+  "resourceName": "profil",
+  "policyUUID": "e4593394",
+  "bucketName": "profil",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
