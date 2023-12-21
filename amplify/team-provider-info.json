@@ -113,5 +113,34 @@
         "users": {}
       }
     }
+  },
+  "mylo": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-react2-mylo-115625-authRole",
+      "UnauthRoleArn": "arn:aws:iam::195692292045:role/amplify-react2-mylo-115625-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::195692292045:role/amplify-react2-mylo-115625-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-react2-mylo-115625-deployment",
+      "UnauthRoleName": "amplify-react2-mylo-115625-unauthRole",
+      "StackName": "amplify-react2-mylo-115625",
+      "StackId": "arn:aws:cloudformation:eu-west-1:195692292045:stack/amplify-react2-mylo-115625/9aa5c7a0-9fef-11ee-8290-0a0d1f892d53",
+      "AmplifyAppId": "d27hk2rokv5hlx",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-react2-mylo-115625-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "auth": {
+        "react256ed71b7": {}
+      },
+      "function": {
+        "react256ed71b7PostConfirmation": {
+          "deploymentBucketName": "amplify-react2-mylo-115625-deployment",
+          "s3Key": "amplify-builds/react256ed71b7PostConfirmation-6b456931736e726c4e44-build.zip"
+        },
+        "users": {}
+      },
+      "storage": {
+        "users": {}
+      }
+    }
   }
 }
