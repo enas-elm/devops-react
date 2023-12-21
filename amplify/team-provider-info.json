@@ -83,13 +83,18 @@
         "react227b13b0e": {
           "deploymentBucketName": "amplify-react2-lilraw-104711-deployment",
           "s3Key": "amplify-builds/react227b13b0e-34524230623367594d43-build.zip"
+        },
+        "getUsers": {
+          "deploymentBucketName": "amplify-react2-lilraw-104711-deployment",
+          "s3Key": "amplify-builds/getUsers-3578585776646d476871-build.zip"
         }
       },
       "storage": {
         "users": {}
       },
       "api": {
-        "apib3b4037a": {}
+        "apib3b4037a": {},
+        "users": {}
       }
     }
   },
