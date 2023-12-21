@@ -105,12 +105,13 @@
       "function": {
         "react256ed71b7PostConfirmation": {
           "deploymentBucketName": "amplify-react2-mmel-113029-deployment",
-          "s3Key": "amplify-builds/react256ed71b7PostConfirmation-6b456931736e726c4e44-build.zip"
+          "s3Key": "amplify-builds/react256ed71b7PostConfirmation-7756625a65444d47386c-build.zip"
         },
         "users": {}
       },
       "storage": {
-        "users": {}
+        "users": {},
+        "profil": {}
       }
     }
   },
