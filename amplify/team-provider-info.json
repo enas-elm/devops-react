@@ -67,7 +67,8 @@
       "StackName": "amplify-react2-lilraw-104711",
       "StackId": "arn:aws:cloudformation:eu-west-1:195692292045:stack/amplify-react2-lilraw-104711/ea46cde0-9fe5-11ee-92c1-0a3f65015985",
       "AmplifyAppId": "d27hk2rokv5hlx",
-      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-react2-lilraw-104711-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-react2-lilraw-104711-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-react2-lilraw-104711-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
     },
     "categories": {
       "auth": {
@@ -78,9 +79,21 @@
           "deploymentBucketName": "amplify-react2-lilraw-104711-deployment",
           "s3Key": "amplify-builds/react256ed71b7PostConfirmation-6b456931736e726c4e44-build.zip"
         },
-        "users": {}
+        "users": {},
+        "react227b13b0e": {
+          "deploymentBucketName": "amplify-react2-lilraw-104711-deployment",
+          "s3Key": "amplify-builds/react227b13b0e-34524230623367594d43-build.zip"
+        },
+        "getUsers": {
+          "deploymentBucketName": "amplify-react2-lilraw-104711-deployment",
+          "s3Key": "amplify-builds/getUsers-3578585776646d476871-build.zip"
+        }
       },
       "storage": {
+        "users": {}
+      },
+      "api": {
+        "apib3b4037a": {},
         "users": {}
       }
     }

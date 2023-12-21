@@ -1,4 +1,34 @@
 {
+  "api": {
+    "apib3b4037a": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "react227b13b0e"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    },
+    "users": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "getUsers"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
   "auth": {
     "react256ed71b7": {
       "customAuth": false,
@@ -40,6 +70,27 @@
     }
   },
   "function": {
+    "getUsers": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn",
+            "StreamArn"
+          ],
+          "category": "storage",
+          "resourceName": "users"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "react227b13b0e": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
     "react256ed71b7PostConfirmation": {
       "build": true,
       "dependsOn": [
@@ -58,6 +109,38 @@
     }
   },
   "parameters": {
+    "AMPLIFY_function_getUsers_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "getUsers"
+        }
+      ]
+    },
+    "AMPLIFY_function_getUsers_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "getUsers"
+        }
+      ]
+    },
+    "AMPLIFY_function_react227b13b0e_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "react227b13b0e"
+        }
+      ]
+    },
+    "AMPLIFY_function_react227b13b0e_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "react227b13b0e"
+        }
+      ]
+    },
     "AMPLIFY_function_react256ed71b7PostConfirmation_deploymentBucketName": {
       "usedBy": [
         {
