@@ -3,6 +3,8 @@ export type AmplifyDependentResourcesAttributes = {
     "react256ed71b7": {
       "AppClientID": "string",
       "AppClientIDWeb": "string",
+      "IdentityPoolId": "string",
+      "IdentityPoolName": "string",
       "UserPoolArn": "string",
       "UserPoolId": "string",
       "UserPoolName": "string"
@@ -18,6 +20,10 @@ export type AmplifyDependentResourcesAttributes = {
     }
   },
   "storage": {
+    "profil": {
+      "BucketName": "string",
+      "Region": "string"
+    },
     "users": {
       "Arn": "string",
       "Name": "string",

@@ -6,7 +6,10 @@ exports.handler = async (event, context) => {
   console.log('event', event);
   console.log('process.env:', process.env.STORAGE_USERS_NAME)
   var userName = event.userName;
-  var region = event.region;
+  var region = event.region; 
+  var name =  event.request.userAttributes.name; 
+  var email = event.request.userAttributes.email; 
+  var family_name = event.request.userAttributes.family_name; 
 
 
   // Load the AWS SDK for Node.js
@@ -23,6 +26,7 @@ exports.handler = async (event, context) => {
     TableName: process.env.STORAGE_USERS_NAME,
     Item: {
       'id': { S: userName }
+       
     }
   };
 
@@ -30,7 +34,10 @@ exports.handler = async (event, context) => {
   await ddb.putItem({
     TableName: process.env.STORAGE_USERS_NAME,
     Item: {
-      'id': { S: userName }
+      'id': { S: userName } ,
+      'name':{S:name}, 
+      'email':{S:email}, 
+      'family_name':{S:family_name}
     }
   }
   ).promise();
