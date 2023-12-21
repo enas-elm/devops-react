@@ -14,7 +14,7 @@ export default function SettingsPage() {
 
   useEffect(() => {
 
-    fetch('')
+    fetch("https://h29ummvr0j.execute-api.eu-west-1.amazonaws.com/lilraw")
 
       .then(response => response.json())
 

@@ -1,5 +1,5 @@
 import { get } from 'aws-amplify/api';
-import React from 'react';
+import React, {useState} from 'react';
 import { Amplify } from 'aws-amplify';
 import { Authenticator } from '@aws-amplify/ui-react';
 import '@aws-amplify/ui-react/styles.css'; 
@@ -41,14 +41,12 @@ export default function HomePage() {
       {({ signOut, user }) => (
         <main>
           <h1>Hello {user.username}</h1>
-          <button onClick={signOut}>Sign out</button>
-          <button onClick={getTodo} style={{width:'40px', height:'40px'}}>callApi</button>
+          <button onClick={getTodo} style={{width:'200px', height:'200px'}}>callApi</button>
           <ul>
             {items.map((item, index) => (
               <li key={index}>{JSON.stringify(item)}</li>
             ))}
           </ul>
-          <h1>Hello</h1> 
           <button onClick={signOut}>Sign out</button> 
          <ProfilePage/>
         </main>
