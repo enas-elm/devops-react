@@ -1,6 +1,8 @@
 {
   "version": "1",
   "cognitoConfig": {
+    "identityPoolName": "react256ed71b7_identitypool_96d8ef2b",
+    "allowUnauthenticatedIdentities": false,
     "resourceNameTruncated": "react256ed71b7",
     "userPoolName": "react256ed71b7_userpool_56ed71b7",
     "autoVerifiedAttributes": [
@@ -35,7 +37,7 @@
     "userpoolClientSetAttributes": false,
     "sharedId": "56ed71b7",
     "resourceName": "react256ed71b7",
-    "authSelections": "userPoolOnly",
+    "authSelections": "identityPoolAndUserPool",
     "useDefault": "manual",
     "usernameAttributes": [
       "email"
@@ -80,7 +82,9 @@
     "parentStack": {
       "Ref": "AWS::StackId"
     },
-    "authTriggerConnections": "[\n  {\n    \"triggerType\": \"PostConfirmation\",\n    \"lambdaFunctionName\": \"react256ed71b7PostConfirmation\"\n  }\n]",
+    "authTriggerConnections": [
+      "{\"triggerType\":\"PostConfirmation\",\"lambdaFunctionName\":\"react256ed71b7PostConfirmation\"}"
+    ],
     "permissions": []
   }
 }

@@ -1,4 +1,20 @@
 {
+  "api": {
+    "apib3b4037a": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "react227b13b0e"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
   "auth": {
     "react256ed71b7": {
       "customAuth": false,
@@ -40,6 +56,11 @@
     }
   },
   "function": {
+    "react227b13b0e": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
     "react256ed71b7PostConfirmation": {
       "build": true,
       "dependsOn": [
@@ -55,6 +76,40 @@
       ],
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_react227b13b0e_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "react227b13b0e"
+        }
+      ]
+    },
+    "AMPLIFY_function_react227b13b0e_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "react227b13b0e"
+        }
+      ]
+    },
+    "AMPLIFY_function_react256ed71b7PostConfirmation_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "react256ed71b7PostConfirmation"
+        }
+      ]
+    },
+    "AMPLIFY_function_react256ed71b7PostConfirmation_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "react256ed71b7PostConfirmation"
+        }
+      ]
     }
   },
   "storage": {
