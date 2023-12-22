@@ -69,6 +69,7 @@ export default function SettingsPage() {
   return (
 
     <div>
+
     <form onSubmit={handleSubmit}>
       <div>
         <div>
@@ -94,6 +95,9 @@ export default function SettingsPage() {
     </form>
   </div>
   
+
+          
+
 
   );
 

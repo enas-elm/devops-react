@@ -120,9 +120,12 @@
           "deploymentBucketName": "amplify-react2-mmel-113029-deployment",
           "s3Key": "amplify-builds/react256ed71b7PostConfirmation-7756625a65444d47386c-build.zip"
         },
+
         "users": {},
         "getUsers": {},
         "react227b13b0e": {}
+
+
       },
       "storage": {
         "users": {},

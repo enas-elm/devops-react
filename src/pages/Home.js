@@ -40,15 +40,19 @@ export default function HomePage() {
     ]}>
       {({ signOut, user }) => (
         <main>
+
           <h1>Hello </h1>
           <button onClick={getTodo} style={{width:'80px', height:'40px'}}>callApi</button>
+
           <ul>
             {items.map((item, index) => (
               <li key={index}>{JSON.stringify(item)}</li>
             ))}
           </ul>
+
          <ProfilePage/> 
          <button onClick={signOut}>Sign out</button> 
+
         </main>
       )}
     </Authenticator>
