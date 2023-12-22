@@ -69,51 +69,31 @@ export default function SettingsPage() {
   return (
 
     <div>
-
-      <form onSubmit={handleSubmit}>
-
+    <form onSubmit={handleSubmit}>
+      <div>
         <div>
- 
-
-          <div >
-        
-            <label>ID:</label>
-            <span>{id}</span>
-
-          </div> 
-          
-
-    
-
-          <label htmlFor="companyName">Entreprise</label>
-
-          <input
-
-            type="text"
-
-            id="companyName"
-
-            value={companyName}
-
-            onChange={handleCompanyNameChange}
-
-          />
-
+          <label>ID:</label>
+          <span>{id}</span>
         </div>
-
-        <div>
-
-          <label htmlFor="image">Upload Image:</label>
-
-          <input type="file" id="image" onChange={handleImageChange} />
-
-        </div>
-
-        <button type="submit">Save Changes</button>
-
-      </form>
-
-    </div>
+  
+        <label htmlFor="companyName">Entreprise</label>
+        <input
+          type="text"
+          id="companyName"
+          value={companyName}
+          onChange={handleCompanyNameChange}
+        />
+      </div>
+  
+      <div>
+        <label htmlFor="image">Upload Image:</label>
+        <input type="file" id="image" onChange={handleImageChange} />
+      </div>
+  
+      <button type="submit">Save Changes</button>
+    </form>
+  </div>
+  
 
   );
 

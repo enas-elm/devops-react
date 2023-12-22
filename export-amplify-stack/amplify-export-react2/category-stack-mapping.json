@@ -1,0 +1,22 @@
+[
+  {
+    "category": "auth",
+    "resourceName": "react256ed71b7",
+    "service": "Cognito"
+  },
+  {
+    "category": "function",
+    "resourceName": "react256ed71b7PostConfirmation",
+    "service": "Lambda"
+  },
+  {
+    "category": "storage",
+    "resourceName": "users",
+    "service": "DynamoDB"
+  },
+  {
+    "category": "storage",
+    "resourceName": "profil",
+    "service": "S3"
+  }
+]
