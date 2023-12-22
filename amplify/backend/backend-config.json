@@ -109,38 +109,6 @@
     }
   },
   "parameters": {
-    "AMPLIFY_function_getUsers_deploymentBucketName": {
-      "usedBy": [
-        {
-          "category": "function",
-          "resourceName": "getUsers"
-        }
-      ]
-    },
-    "AMPLIFY_function_getUsers_s3Key": {
-      "usedBy": [
-        {
-          "category": "function",
-          "resourceName": "getUsers"
-        }
-      ]
-    },
-    "AMPLIFY_function_react227b13b0e_deploymentBucketName": {
-      "usedBy": [
-        {
-          "category": "function",
-          "resourceName": "react227b13b0e"
-        }
-      ]
-    },
-    "AMPLIFY_function_react227b13b0e_s3Key": {
-      "usedBy": [
-        {
-          "category": "function",
-          "resourceName": "react227b13b0e"
-        }
-      ]
-    },
     "AMPLIFY_function_react256ed71b7PostConfirmation_deploymentBucketName": {
       "usedBy": [
         {
