@@ -1,4 +1,5 @@
 export type AmplifyDependentResourcesAttributes = {
+
   "api": {
     "apib3b4037a": {
       "ApiId": "string",
@@ -11,6 +12,7 @@ export type AmplifyDependentResourcesAttributes = {
       "RootUrl": "string"
     }
   },
+
   "auth": {
     "react256ed71b7": {
       "AppClientID": "string",
@@ -23,6 +25,7 @@ export type AmplifyDependentResourcesAttributes = {
     }
   },
   "function": {
+
     "getUsers": {
       "Arn": "string",
       "LambdaExecutionRole": "string",
@@ -37,6 +40,7 @@ export type AmplifyDependentResourcesAttributes = {
       "Name": "string",
       "Region": "string"
     },
+
     "react256ed71b7PostConfirmation": {
       "Arn": "string",
       "LambdaExecutionRole": "string",
